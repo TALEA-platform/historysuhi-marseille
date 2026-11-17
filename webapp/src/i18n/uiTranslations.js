@@ -363,6 +363,9 @@ const TRANSLATIONS = {
     "No matching area. Try an arrondissement like '7e' or a quartier like 'Noailles'.": "Aucune zone trouvée. Essayez un arrondissement comme « 7e » ou un quartier comme « Noailles ».",
     "Statistical areas pagination": "Pagination des quartiers",
     "n/a": "n.d.",
+    "Water (excluded from the index)": "Eau (exclue de l'indice)",
+    "At least half of this surface is water (rivers, lakes or sea). The index is not computed here: water has no vegetation and reflects little sunlight, so it would look \"exposed\" even though it is not a hot spot. Its cooling effect remains visible in the temperatures along the shores.": "Au moins la moitié de cette surface est de l'eau (cours d'eau, lacs ou mer). L'indice n'est pas calculé ici : l'eau n'a pas de végétation et réfléchit peu la lumière solaire, elle paraîtrait donc « exposée » alors qu'elle n'est pas une zone de chaleur. Son effet rafraîchissant reste visible dans les températures des rives.",
+    "In View 3, water is excluded from the overall heat exposure index and the two deeper-reading indices (30 m pixels at least half covered by water according to ESA WorldCover): with no vegetation and low reflectance it would look exposed to heat even though it is not. The area averages of these indices also count land only.": "Dans la Vue 3, l'eau est exclue de l'exposition globale à la chaleur et des deux indices d'approfondissement (pixels de 30 m couverts au moins pour moitié par de l'eau selon ESA WorldCover) : sans végétation et peu réfléchissante, elle paraîtrait exposée à la chaleur alors qu'elle ne l'est pas. Les moyennes par zone de ces indices ne comptent elles aussi que la terre ferme.",
   },
 };
 

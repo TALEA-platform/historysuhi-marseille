@@ -269,6 +269,9 @@ const englishLayerOverrides = {
   },
   view3Layers: {
     uhei: {
+      noDataLabel: "Water (excluded from the index)",
+      noDataDescription:
+        "At least half of this surface is water (rivers, lakes or sea). The index is not computed here: water has no vegetation and reflects little sunlight, so it would look \"exposed\" even though it is not a hot spot. Its cooling effect remains visible in the temperatures along the shores.",
       title: "Overall heat exposure",
       subtitle: "Where high surface temperature, little vegetation and dark surfaces show up together",
       description:
@@ -316,6 +319,9 @@ const englishLayerOverrides = {
       legend: ["absorbent", "intermediate", "reflective"],
     },
     hvi: {
+      noDataLabel: "Water (excluded from the index)",
+      noDataDescription:
+        "At least half of this surface is water (rivers, lakes or sea). The index is not computed here: water has no vegetation and reflects little sunlight, so it would look \"exposed\" even though it is not a hot spot. Its cooling effect remains visible in the temperatures along the shores.",
       title: "Surface temperature and lack of vegetation",
       subtitle: "Helps show where additional greenery could make a bigger difference",
       description:
@@ -332,6 +338,9 @@ const englishLayerOverrides = {
       legend: ["low and green", "intermediate", "high and low vegetation"],
     },
     hri: {
+      noDataLabel: "Water (excluded from the index)",
+      noDataDescription:
+        "At least half of this surface is water (rivers, lakes or sea). The index is not computed here: water has no vegetation and reflects little sunlight, so it would look \"exposed\" even though it is not a hot spot. Its cooling effect remains visible in the temperatures along the shores.",
       title: "Surface temperature and poorly reflective surfaces",
       subtitle: "Helps read the weight of roofs, pavements and materials that absorb heat",
       description:
@@ -589,6 +598,9 @@ const frenchLayerOverrides = {
   },
   view3Layers: {
     uhei: {
+      noDataLabel: "Eau (exclue de l'indice)",
+      noDataDescription:
+        "Au moins la moitié de cette surface est de l'eau (cours d'eau, lacs ou mer). L'indice n'est pas calculé ici : l'eau n'a pas de végétation et réfléchit peu la lumière solaire, elle paraîtrait donc « exposée » alors qu'elle n'est pas une zone de chaleur. Son effet rafraîchissant reste visible dans les températures des rives.",
       title: "Exposition globale à la chaleur",
       subtitle: "Là où forte température de surface, faible végétation et surfaces sombres se cumulent",
       description:
@@ -617,6 +629,9 @@ const frenchLayerOverrides = {
       legend: ["absorbant", "intermédiaire", "réfléchissant"],
     },
     hvi: {
+      noDataLabel: "Eau (exclue de l'indice)",
+      noDataDescription:
+        "Au moins la moitié de cette surface est de l'eau (cours d'eau, lacs ou mer). L'indice n'est pas calculé ici : l'eau n'a pas de végétation et réfléchit peu la lumière solaire, elle paraîtrait donc « exposée » alors qu'elle n'est pas une zone de chaleur. Son effet rafraîchissant reste visible dans les températures des rives.",
       title: "Température de surface et manque de végétation",
       subtitle: "Montre où un apport de végétation pourrait avoir le plus d'effet",
       description:
@@ -627,6 +642,9 @@ const frenchLayerOverrides = {
       legend: ["bas et vert", "intermédiaire", "élevé et peu végétalisé"],
     },
     hri: {
+      noDataLabel: "Eau (exclue de l'indice)",
+      noDataDescription:
+        "Au moins la moitié de cette surface est de l'eau (cours d'eau, lacs ou mer). L'indice n'est pas calculé ici : l'eau n'a pas de végétation et réfléchit peu la lumière solaire, elle paraîtrait donc « exposée » alors qu'elle n'est pas une zone de chaleur. Son effet rafraîchissant reste visible dans les températures des rives.",
       title: "Température de surface et surfaces peu réfléchissantes",
       subtitle: "Aide à lire le poids des toitures, sols et matériaux qui absorbent la chaleur",
       description:
